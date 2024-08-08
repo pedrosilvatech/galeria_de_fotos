@@ -16,8 +16,20 @@ header {
     font-style: italic;
 }
 
+body {
+    background-color: rgb(82, 69, 90);
+}
+
 header button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 0, 145);
     margin-left: 16px;
+    transition: 0.2s;
+}
+
+header button:hover {
+    background-color: rgb(22, 1, 212);
+    color: white;
 }
 
 form {
@@ -43,10 +55,20 @@ button {
     text-transform: uppercase;
     color: white;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #00e74d;
 }
 
 #botao-cancelar {
     background-color: red;
+    transition: 0.2s;
+}
+
+#botao-cancelar:hover {
+    background-color: rgb(150, 0, 0);
 }
 
 ul {
@@ -55,10 +77,10 @@ ul {
 }
 
 ul li {
-    max-width: 25%;
+    max-width: 30%;
     list-style: none;
     position: relative;
-    max-height: 210px;
+    max-height: 230px;
     overflow-y: hidden;
 }
 
